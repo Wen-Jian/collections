@@ -1,0 +1,25 @@
+.list_container {
+  width: 100vw;
+  text-align: center;
+  .list_box_container {
+    display: inline-flex;
+    width: 40%;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px grey;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    .list_box_img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 200px;
+    }
+    .list_box_name {
+      margin: 2% auto;
+    }
+  }
+}
