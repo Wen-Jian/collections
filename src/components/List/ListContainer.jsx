@@ -51,6 +51,7 @@ const ListContainer = () => {
               name={obj.name}
               description={obj.description}
               key={index}
+              tokenId={obj.token_id}
             />
           );
         })}

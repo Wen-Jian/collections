@@ -7,3 +7,13 @@ export const getList = async (offset) => {
   );
   return response.json();
 };
+
+export const getDetail = async (tokenId) => {
+  const response = await fetch(
+    `https://api.opensea.io/api/v1/asset/0x06012c8cf97bead5deae237070f9587f8e7a266d/${tokenId}/`,
+    {
+      method: "GET",
+    }
+  );
+  return response.json();
+};
